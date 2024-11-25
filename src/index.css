@@ -1,0 +1,87 @@
+:root {
+  --white: #fff;
+  --black: #182339;
+  --primary: #114a94;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+body{
+  background-color: var(--primary);
+  color: var(--white);
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
+}
+.container{
+  max-width: 1200px;
+  width: 95%;;
+  margin: 0 auto;
+}
+.container h1{
+  text-align: center;
+  padding: 4rem;
+}
+
+.content{
+  color: var(--black);
+  background-color: #fff;
+  border-radius: 0.4rem;
+}
+form{
+  width: 100%;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.listPokes{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: start;
+  gap: 2rem;
+}
+.listPokes label{
+  font-weight: 600;
+  color: rgb(111, 111, 111);
+}
+.listPokes select{
+  width: 100%;
+  border: 1px solid var(--primary);
+  border-radius: 0.5rem;
+  background-color: white;
+  padding: 1rem 2rem;
+  outline: none;
+  font-size: 1.8rem;
+}
+.listPokes select option{
+  font-family: 'Outfitt', sans-serif;
+  font-size: 1.8rem;
+}
+
+form input{
+  width: 100%;
+  padding: 1rem 25rem;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+  color: white;
+  background-color: #114a94;
+}
+
+.display{
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 5rem;
+}
